@@ -1,0 +1,74 @@
+[
+  {
+    "question": "Who first introduced Retrieval-Augmented Generation, and in what year?",
+    "ground_truth": "Lewis et al. first introduced Retrieval-Augmented Generation (RAG) in 2020.",
+    "source_file": "rag_guide.txt",
+    "source_section": "Introduction to Retrieval-Augmented Generation (RAG)"
+  },
+  {
+    "question": "What are the three core phases of a standard RAG pipeline?",
+    "ground_truth": "The three core phases of a standard RAG pipeline are Ingestion, Retrieval, and Generation.",
+    "source_file": "rag_guide.txt",
+    "source_section": "Key Components of RAG"
+  },
+  {
+    "question": "What algorithm is used to combine dense and sparse search results in hybrid retrieval?",
+    "ground_truth": "Reciprocal Rank Fusion (RRF) is used to combine dense and sparse search results.",
+    "source_file": "rag_guide.txt",
+    "source_section": "2. Retrieval Phase"
+  },
+  {
+    "question": "Why does RAG cost less than fine-tuning or training a model?",
+    "ground_truth": "RAG is more cost-efficient because updating the system's knowledge base only requires re-indexing text documents, which is a fraction of the cost of training or fine-tuning models.",
+    "source_file": "rag_guide.txt",
+    "source_section": "Benefits of RAG"
+  },
+  {
+    "question": "What are the standard working hours at Acme Corp?",
+    "ground_truth": "Standard working hours at Acme Corp are from 9:00 AM to 5:00 PM, Monday through Friday.",
+    "source_file": "company_policy.docx",
+    "source_section": "2. Standard Working Hours"
+  },
+  {
+    "question": "How many days of Paid Time Off (PTO) do full-time employees receive annually at Acme Corp?",
+    "ground_truth": "Full-time employees receive 20 days of Paid Time Off (PTO) per calendar year, accrued monthly at a rate of 1.67 days per month.",
+    "source_file": "company_policy.docx",
+    "source_section": "3. Annual Leave and Paid Time Off (PTO)"
+  },
+  {
+    "question": "How many unused PTO days can be carried over to the next calendar year at Acme Corp?",
+    "ground_truth": "Unused PTO up to a maximum of 5 days may be carried over into the next calendar year. Any additional unused PTO exceeding 5 days is forfeited on December 31st.",
+    "source_file": "company_policy.docx",
+    "source_section": "3. Annual Leave and Paid Time Off (PTO)"
+  },
+  {
+    "question": "What is Acme Corp's policy on harassment and discrimination?",
+    "ground_truth": "Acme Corp has zero tolerance for harassment, discrimination, or bullying of any kind, and is committed to maintaining a safe, inclusive, and professional workspace.",
+    "source_file": "company_policy.docx",
+    "source_section": "4. Professional Code of Conduct"
+  },
+  {
+    "question": "Which architecture is the foundation for modern Large Language Models, and when was it introduced?",
+    "ground_truth": "Modern Large Language Models are built on the Transformer architecture introduced by Vaswani et al. in 2017.",
+    "source_file": "ai_handbook.pdf",
+    "source_section": "1. Evolution of Large Language Models"
+  },
+  {
+    "question": "What context window size is supported by Llama 3.1?",
+    "ground_truth": "Llama 3.1 supports a context window of 128k tokens.",
+    "source_file": "ai_handbook.pdf",
+    "source_section": "2. Llama 3.1: The Open-Weights State of the Art"
+  },
+  {
+    "question": "How many tokens was Llama 3.1 trained on?",
+    "ground_truth": "Llama 3.1 was trained on a dataset of over 15 trillion tokens.",
+    "source_file": "ai_handbook.pdf",
+    "source_section": "2. Llama 3.1: The Open-Weights State of the Art"
+  },
+  {
+    "question": "Why does the Groq LPU use SRAM directly on the chip instead of standard memory?",
+    "ground_truth": "The Groq LPU utilizes Static Random-Access Memory (SRAM) laid out directly on the chip. This bypasses the memory-bandwidth bottlenecks of traditional GPUs, enabling deterministic execution and high throughputs (exceeding 500 tokens per second).",
+    "source_file": "ai_handbook.pdf",
+    "source_section": "3. Groq LPU: Overcoming the Memory Wall"
+  }
+]
