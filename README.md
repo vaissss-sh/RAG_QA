@@ -1,4 +1,4 @@
-LIVE DEMO : https://huggingface.co/spaces/PromptMechanic/ask-your-docs
+
 # Hybrid RAG Document Q&A System
 
 A production-grade, local-first **Retrieval-Augmented Generation (RAG)** Document Q&A system built from scratch with Python, LangChain, FAISS, and BM25, utilizing Groq (Llama 3.1 8B) for fast inference. 
